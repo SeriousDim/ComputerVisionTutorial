@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 from imtools import *
 
-img = cv.imread("images/moscow.jpg")
+img = cv.imread("../images/moscow.jpg")
 img = cv.resize(img, (int(img.shape[1]//2), int(img.shape[0]//2)), cv.INTER_CUBIC)
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
