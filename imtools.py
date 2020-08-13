@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 from numpy.linalg import *
+from scipy.ndimage import filters as flt
+import matplotlib.pyplot as plt
 
 
 def histeq(img, nbr_bins=256):
@@ -104,4 +106,159 @@ def chambolle_denoise(img, u_init, tolerance=0.1, tau=0.125, tv_weight=100):
         error = norm(u-u_old) / np.sqrt(n*m)
 
     return u, img - u  # очищенное от шумов изображение и остаточная текстура
+
+
+def compute_harris_response(img, sigma=3):
+    """ Вычислить функцию отклика детектора Харриса для каждого
+    пикселя полутонового изображения
+    """
+
+    # производные
+    imx = np.zeros(img.shape)
+    imy = np.zeros(img.shape)
+    flt.gaussian_filter(img, (sigma, sigma), (0,1), imx)
+    flt.gaussian_filter(img, (sigma, sigma), (1,0), imy)
+
+    # вычислить элементы матрицы Харриса
+    wxx = flt.gaussian_filter(imx*imx, sigma)
+    wxy = flt.gaussian_filter(imx*imy, sigma)
+    wyy = flt.gaussian_filter(imy*imy, sigma)
+
+    # определитель и след матрицы
+    w_det = wxx*wxx - wxy**2
+    w_trace = wxx + wyy
+
+    return w_det / (w_trace ** 2)
+
+
+def get_harris_points(harris_img, min_distance=10, threshold=0.3):
+    """ Возвращает углы на изображении, построенном по функции отклика Харриса.
+    :param min_distance: минимальное число пкс между углами и границей изображения
+    """
+
+    # точки-кандидаты
+    corner_threshold = harris_img.max() * threshold
+    t = (harris_img > corner_threshold) * 1
+
+    # координаты и знаечния кандидатов
+    coords = np.array(t.nonzero()).T
+    values = [harris_img[c[0],c[1]] for c in coords]
+
+    # отсортировать кандидатов (argsort возвращает индексы)
+    index = np.argsort(values)
+
+    # данные о точках-кандидатах в массивах
+    allowed_locations = np.zeros(harris_img.shape)
+    allowed_locations[min_distance:-min_distance, min_distance:-min_distance] = 1
+
+    # выбрать наилучшие точки с учетом min_distance
+    filtered_coords = []
+    for i in index:
+        if allowed_locations[coords[i,0], coords[i,1]] == 1:
+            filtered_coords.append(coords[i])
+            allowed_locations[(coords[i,0]-min_distance):(coords[i,0]+min_distance),
+            (coords[i,1]-min_distance):(coords[i,1]+min_distance)] = 0
+
+    return filtered_coords
+
+
+def get_descriptors(img, filtered_coords, width=5):
+    """ Для каждой точки вернуть значения пикселей в окрестности этой точки
+    шириной 2*wid+1. Предполагается, что выбирались точки с min_distance > min
+    """
+    desc = []
+    for coords in filtered_coords:
+        patch = img[coords[0]-width:coords[0]+width+1,coords[1]-width:coords[1]+width+1]
+        patch = patch.flatten()
+        desc.append(patch)
+
+    return desc
+
+
+def match(desc1, desc2, threshold=0.5):
+    """ Для каждого дескриптора угловой точки в 1-м изображении найти
+    соответсвующую ему точку во втором изображении, применяя нормированную
+    взаимную корреляцию
+    """
+    n = len(desc1[0])
+
+    # попарные расстояния
+    d = -np.ones((len(desc1), len(desc2)))
+    for i in range(len(desc1)):
+        for j in range(len(desc2)):
+            d1 = ((desc1[i] - np.mean(desc1[i])) / np.std(desc1[i]))
+            d2 = ((desc2[j] - np.mean(desc2[j])) / np.std(desc2[j]))
+            ncc_value = np.sum(d1 * d2) / (n-1)
+            if ncc_value > threshold:
+                d[i,j] = ncc_value
+
+    ndx = np.argsort(-d)
+    scores = ndx[:,0]
+
+    return scores
+
+
+def match_twosided(desc1, desc2, threshold=0.5):
+    """ Двустороний симметричный вариант match()
+    """
+    match12 = match(desc1, desc2, threshold)
+    match21 = match(desc2, desc1, threshold)
+    ndx = np.where(match12 >= 0)[0]
+
+    # исключить несимметричные соответсвия
+    for n in ndx:
+        if match21[match12[n]] != n:
+            match12[n] = -1
+
+    return match12
+
+
+def append_images(img1, img2):
+    """ Вернуть изображение, на котором два исходных расположены рядом
+    """
+    rows1 = img1.shape[0]
+    rows2 = img2.shape[0]
+    print(rows1, rows2)
+
+    if rows1 < rows2:
+        img1 = np.concatenate((img1, np.zeros((rows2-rows1,img1.shape[1]))), axis=0)
+    elif rows1 > rows2:
+        img2 = np.concatenate((img2, np.zeros((rows1-rows2, img2.shape[1]))), axis=0)
+
+    return np.concatenate((img1, img2), axis=1)
+
+
+def append_images_3(img1, img2):
+    """ Вернуть изображение, на котором два исходных расположены рядом
+    """
+    rows1 = img1.shape[0]
+    rows2 = img2.shape[0]
+    print(rows1, rows2)
+
+    if rows1 < rows2:
+        img1 = np.concatenate((img1, np.zeros((rows2-rows1,img1.shape[1],img1.shape[2]))), axis=0)
+    elif rows1 > rows2:
+        img2 = np.concatenate((img2, np.zeros((rows1-rows2, img2.shape[1], img2.shape[2]))), axis=0)
+
+    return np.concatenate((img1, img2), axis=1)
+
+
+def plot_matches(img1, img2, locs1, locs2, matchscores, show_below=True):
+    """ Показать рисунок, на котором соотвественые точки соеденены
+    :param locs1, locs2: координаты особых точек
+    :param matchscores: результат, возвращенный match()
+    :param show_below: показать изображения под картинкой соответсвия
+    """
+    img3 = append_images(img1, img2)
+    if show_below:
+        img3 = np.vstack((img3, img3))
+    plt.imshow(img3)
+
+    cols1 = img1.shape[1]
+    for i, m in enumerate(matchscores):
+        if m > 0:
+            plt.plot([locs1[i][1], locs2[m][1]+cols1], [locs1[i][0], locs2[m][0]], 'c')
+    plt.axis('off')
+
+
 

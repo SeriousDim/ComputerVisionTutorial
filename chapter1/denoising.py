@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-img = cv.imread("../images/noise2.jpg")
+img = cv.imread("../images/noise1.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 gray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
 

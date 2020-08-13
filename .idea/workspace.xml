@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter1/pca.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/average.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/cdf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cdf_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/cdf_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/denoising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imtools.py" beforeDir="false" afterPath="$PROJECT_DIR$/imtools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,18 +32,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My folder\Projects\ComputerVision\chapter2" />
+      <recent name="C:\My folder\Projects\ComputerVision" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\My folder\Projects\ComputerVision" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sift_opencv">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,6 +66,120 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="adding_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/OpenCV_Binary/opencv-4.4.0/samples/python/tutorial_code/core/AddingImages" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/OpenCV_Binary/opencv-4.4.0/samples/python/tutorial_code/core/AddingImages/adding_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="blur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/blur.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="denoising" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/denoising.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="harris_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/harris_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sift_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/sift_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sift_opencv" />
+        <item itemvalue="Python.denoising" />
+        <item itemvalue="Python.blur" />
+        <item itemvalue="Python.harris_opencv" />
+        <item itemvalue="Python.adding_images" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -99,53 +211,61 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596647921207" />
+    <state x="486" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597090430749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597090430749" />
     <state x="851" y="174" key="FileChooserDialogImpl" timestamp="1595787727668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="851" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595787727668" />
-    <state width="963" height="111" key="GridCell.Tab.0.bottom" timestamp="1596651207004">
+    <state width="904" height="158" key="GridCell.Tab.0.bottom" timestamp="1597338587969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="963" height="111" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596651207004" />
-    <state width="963" height="111" key="GridCell.Tab.0.center" timestamp="1596651207004">
+    <state width="904" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597338587969" />
+    <state width="904" height="158" key="GridCell.Tab.0.center" timestamp="1597338587968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="963" height="111" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596651207004" />
-    <state width="963" height="111" key="GridCell.Tab.0.left" timestamp="1596651207004">
+    <state width="904" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597338587968" />
+    <state width="904" height="158" key="GridCell.Tab.0.left" timestamp="1597338587968">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="963" height="111" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596651207004" />
-    <state width="963" height="111" key="GridCell.Tab.0.right" timestamp="1596651207004">
+    <state width="904" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597338587968" />
+    <state width="904" height="158" key="GridCell.Tab.0.right" timestamp="1597338587969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="963" height="111" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596651207004" />
-    <state width="966" height="2" key="GridCell.Tab.1.bottom" timestamp="1596566450008">
+    <state width="904" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597338587969" />
+    <state width="1515" height="2" key="GridCell.Tab.1.bottom" timestamp="1597328045719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="966" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596566450008" />
-    <state width="966" height="2" key="GridCell.Tab.1.center" timestamp="1596566450008">
+    <state width="1515" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597328045719" />
+    <state width="1515" height="2" key="GridCell.Tab.1.center" timestamp="1597328045719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="966" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596566450008" />
-    <state width="966" height="2" key="GridCell.Tab.1.left" timestamp="1596566450008">
+    <state width="1515" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597328045719" />
+    <state width="1515" height="2" key="GridCell.Tab.1.left" timestamp="1597328045719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="966" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596566450008" />
-    <state width="966" height="2" key="GridCell.Tab.1.right" timestamp="1596566450008">
+    <state width="1515" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597328045719" />
+    <state width="1515" height="2" key="GridCell.Tab.1.right" timestamp="1597328045719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="966" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596566450008" />
+    <state width="1515" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597328045719" />
     <state x="252" y="55" key="SettingsEditor" timestamp="1595698255988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="252" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595698255988" />
-    <state x="747" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1596621963431">
+    <state x="747" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1597323401225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="747" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596621963431" />
-    <state x="730" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595699718412">
+    <state x="747" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597323401225" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1596917436120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="730" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595699718412" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1596917436120" />
+    <state x="490" y="99" width="672" height="678" key="search.everywhere.popup" timestamp="1597338434568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="99" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597338434568" />
   </component>
 </project>
