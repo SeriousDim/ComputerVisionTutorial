@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 from imtools import *
 
+# Наглядный результат выравнивание гистограммы.
+# Результат - нормировка яркости изображения
+
 img = cv.imread("../images/moscow.jpg")
 img = cv.resize(img, (int(img.shape[1]//2), int(img.shape[0]//2)), cv.INTER_CUBIC)
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

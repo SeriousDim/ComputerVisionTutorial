@@ -4,7 +4,7 @@ from scipy.ndimage import filters as flt
 from scipy.ndimage import measurements, morphology
 from imtools import *
 
-from imtools import *
+# Упражнения из главы 1
 
 plt.figure()
 plt.gray()

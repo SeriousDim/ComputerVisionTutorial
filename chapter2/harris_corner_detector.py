@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Детектор углов Харриса
+# Детектор углов Харриса из книги
 
 img = cv.imread("../images/skyscraper.webp")
 img = cv.cvtColor(img, cv.COLOR_RGB2GRAY)

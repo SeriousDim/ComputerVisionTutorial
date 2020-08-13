@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.ndimage import filters as flt
 
+# Получение производных изображения с помощью функций OpenCV и scipy
+
 img = cv.imread("../images/leo.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

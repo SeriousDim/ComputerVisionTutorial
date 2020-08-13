@@ -2,7 +2,8 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from numpy import random
 
-# генерация шума
+# Генерация шума
+
 img = cv.imread("../images/moscow.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

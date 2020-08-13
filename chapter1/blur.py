@@ -2,6 +2,8 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Различные виды размытия в OpenCV
+
 img = cv.imread("../images/leo.jpg")
 #img = cv.resize(img, (img.shape[1]//2, img.shape[0]//2))
 

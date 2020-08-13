@@ -2,7 +2,13 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Объяснение представления ключевых точек и дескрипторов здесь:
+# Использование SIFT от OpenCV. Поиск точек, дескрипторов и
+# сопоставление точек на двух картинках, выбор одной точки.
+# НЕОБХОДИМО для работы установить OpenCV из исходников
+# по инструкции. Инстуркция в файле OpenCV from sources.md в корне проекта
+# Туториал от OpenCV: https://docs.opencv.org/master/da/df5/tutorial_py_sift_intro.html
+
+# Объяснение представления ключевых точек и дескрипторов в OpenCV здесь:
 # https://ianlondon.github.io/blog/how-to-sift-opencv/
 
 img1 = cv.imread("../images/town1.jpg")

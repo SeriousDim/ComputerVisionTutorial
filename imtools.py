@@ -4,6 +4,7 @@ from numpy.linalg import *
 from scipy.ndimage import filters as flt
 import matplotlib.pyplot as plt
 
+# Реализации алгоритмов из книги
 
 def histeq(img, nbr_bins=256):
     """ Выравнивание гистограммы изображения в оттенках серого """

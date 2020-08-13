@@ -3,6 +3,7 @@ import os
 from imtools import *
 
 # Применение PCA для датасета MNIST
+
 path = "C:/My folder/mnist/mnist_png/training/1/"  # поставить свой путь
 files = iter(os.listdir(path))
 amount = 100  # кол-во картинок для чтения

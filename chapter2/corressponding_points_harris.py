@@ -2,7 +2,8 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Соответсвенные точки с помощью детектора Харриса
+# Соответсвенные точки на двух картинках
+# с помощью детектора Харриса
 
 img = cv.imread("../images/town1.jpg")
 a = 7

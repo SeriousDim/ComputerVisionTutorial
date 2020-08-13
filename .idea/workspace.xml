@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/blur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/cdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/cdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/cdf_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/cdf_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter1/denoising.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/denoising.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/derivatives.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/derivatives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/derivatives_deep.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/derivatives_deep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/execrises1.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/execrises1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/gen_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/gen_noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/pca_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/corressponding_points_harris.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/corressponding_points_harris.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/sift_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/sift_opencv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imtools.py" beforeDir="false" afterPath="$PROJECT_DIR$/imtools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +55,7 @@
       <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sift_opencv">
+  <component name="RunManager" selected="Python.cdf_demo">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,27 +69,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\My folder\Projects\ComputerVision\chapter1\cdf_demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="adding_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/OpenCV_Binary/opencv-4.4.0/samples/python/tutorial_code/core/AddingImages" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:/OpenCV_Binary/opencv-4.4.0/samples/python/tutorial_code/core/AddingImages/adding_images.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,6 +98,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cdf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/cdf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cdf_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/cdf_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="denoising" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,27 +153,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/denoising.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="harris_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/harris_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cdf_demo" />
+        <item itemvalue="Python.cdf" />
         <item itemvalue="Python.sift_opencv" />
         <item itemvalue="Python.denoising" />
         <item itemvalue="Python.blur" />
-        <item itemvalue="Python.harris_opencv" />
-        <item itemvalue="Python.adding_images" />
       </list>
     </recent_temporary>
   </component>
@@ -219,22 +230,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="851" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595787727668" />
-    <state width="904" height="158" key="GridCell.Tab.0.bottom" timestamp="1597338587969">
+    <state width="904" height="158" key="GridCell.Tab.0.bottom" timestamp="1597339016899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="904" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597338587969" />
-    <state width="904" height="158" key="GridCell.Tab.0.center" timestamp="1597338587968">
+    <state width="904" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597339016899" />
+    <state width="904" height="158" key="GridCell.Tab.0.center" timestamp="1597339016899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="904" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597338587968" />
-    <state width="904" height="158" key="GridCell.Tab.0.left" timestamp="1597338587968">
+    <state width="904" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597339016899" />
+    <state width="904" height="158" key="GridCell.Tab.0.left" timestamp="1597339016899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="904" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597338587968" />
-    <state width="904" height="158" key="GridCell.Tab.0.right" timestamp="1597338587969">
+    <state width="904" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597339016899" />
+    <state width="904" height="158" key="GridCell.Tab.0.right" timestamp="1597339016899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="904" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597338587969" />
+    <state width="904" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597339016899" />
     <state width="1515" height="2" key="GridCell.Tab.1.bottom" timestamp="1597328045719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

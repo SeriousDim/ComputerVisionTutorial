@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.ndimage import filters as flt
 
+# Наглядное использование производных с помощью Собеля
+# и функции (фильтра) Гаусса
+
 img = cv.imread("../images/pca2.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

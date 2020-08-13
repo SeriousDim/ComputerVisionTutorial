@@ -2,6 +2,7 @@ import cv2 as cv
 import numpy as np
 from math import atan2, cos, sin, sqrt
 
+# Более полезное применение PCA
 # Read the OpenCV docs: https://docs.opencv.org/3.4/d1/dee/tutorial_introduction_to_pca.html
 
 def drawAxis(img, p_, q_, color, scale):

@@ -2,6 +2,10 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
+# Избавление изображения от шума с помощью разных алгоритмов
+# Chambolle ROF (из книги, медленее)
+# и Non-local Mean Denoising (OpenCV, быстрее)
+
 img = cv.imread("../images/noise1.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 gray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)
