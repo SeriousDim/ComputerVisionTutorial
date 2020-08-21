@@ -6,7 +6,7 @@ from scipy.ndimage import filters as flt
 # Наглядное использование производных с помощью Собеля
 # и функции (фильтра) Гаусса
 
-img = cv.imread("../images/pca2.jpg")
+img = cv.imread("../images/car1.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 # Производные с помощью функции Собеля
@@ -34,15 +34,15 @@ plt.gray()
 plt.subplot(131)
 plt.axis('equal')
 plt.axis('off')
-plt.imshow(gx)
+plt.imshow(sobel_x)
 plt.subplot(132)
 plt.axis('equal')
 plt.axis('off')
-plt.imshow(gy)
+plt.imshow(sobel_y)
 plt.subplot(133)
 plt.axis('equal')
 plt.axis('off')
-plt.imshow(g2)
+plt.imshow(sobel2)
 
 plt.show()
 
