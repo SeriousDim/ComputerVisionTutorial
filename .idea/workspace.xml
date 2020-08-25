@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/derivatives_deep.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/derivatives_deep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/sift_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/sift_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imtools.py" beforeDir="false" afterPath="$PROJECT_DIR$/imtools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mser">
+  <component name="RunManager" selected="Python.sift_opencv">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="vizualize_linked_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sift_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -161,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/vizualize_linked_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/sift_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sift_opencv" />
         <item itemvalue="Python.mser" />
         <item itemvalue="Python.fast" />
         <item itemvalue="Python.harris_corner_detector" />
         <item itemvalue="Python.harris_opencv" />
-        <item itemvalue="Python.vizualize_linked_images" />
       </list>
     </recent_temporary>
   </component>
@@ -218,26 +217,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="851" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595787727668" />
-    <state width="1011" height="165" key="GridCell.Tab.0.bottom" timestamp="1597739511774">
+    <state width="958" height="165" key="GridCell.Tab.0.bottom" timestamp="1598036125078">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="1011" height="165" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1597739511774" />
-    <state width="1011" height="165" key="GridCell.Tab.0.center" timestamp="1597739511774">
+    <state width="958" height="165" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598036125078" />
+    <state width="958" height="165" key="GridCell.Tab.0.center" timestamp="1598036125077">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="1011" height="165" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1597739511774" />
-    <state width="1011" height="165" key="GridCell.Tab.0.left" timestamp="1597739511773">
+    <state width="958" height="165" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598036125077" />
+    <state width="958" height="165" key="GridCell.Tab.0.left" timestamp="1598036125076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="1011" height="165" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1597739511773" />
-    <state width="1011" height="165" key="GridCell.Tab.0.right" timestamp="1597739511774">
+    <state width="958" height="165" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598036125076" />
+    <state width="958" height="165" key="GridCell.Tab.0.right" timestamp="1598036125078">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="1011" height="165" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1597739511774" />
+    <state width="958" height="165" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598036125078" />
     <state width="1515" height="2" key="GridCell.Tab.1.bottom" timestamp="1597339946099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -258,11 +257,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="252" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595698255988" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1598017832065">
+    <state x="747" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1598287629478">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="747" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597503262002" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1598017832065" />
+    <state x="747" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1598287629478" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1596917436120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

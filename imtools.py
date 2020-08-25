@@ -261,5 +261,3 @@ def plot_matches(img1, img2, locs1, locs2, matchscores, show_below=True):
             plt.plot([locs1[i][1], locs2[m][1]+cols1], [locs1[i][0], locs2[m][0]], 'c')
     plt.axis('off')
 
-
-
