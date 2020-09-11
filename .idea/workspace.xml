@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imtools.py" beforeDir="false" afterPath="$PROJECT_DIR$/imtools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homography.py" beforeDir="false" afterPath="$PROJECT_DIR$/homography.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -28,21 +29,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My folder\Projects\ComputerVision\images" />
+      <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\My folder\Projects\ComputerVision\chapter2" />
       <recent name="C:\My folder\Projects\ComputerVision" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.sift_opencv">
+  <component name="RunManager" selected="Python.part_affine">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="alpha" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/fast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/alpha.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="harris_corner_detector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="delaunay_scipy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/harris_corner_detector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/delaunay_scipy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="harris_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="delaunay_scipy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/harris_opencv.py" />
+      <option name="SCRIPT_NAME" value="C:\My folder\Projects\ComputerVision\chapter3\delaunay_scipy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="part_affine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/mser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/part_affine.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sift_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="perspective_interactive_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/sift_opencv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/perspective_interactive_opencv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sift_opencv" />
-        <item itemvalue="Python.mser" />
-        <item itemvalue="Python.fast" />
-        <item itemvalue="Python.harris_corner_detector" />
-        <item itemvalue="Python.harris_opencv" />
+        <item itemvalue="Python.part_affine" />
+        <item itemvalue="Python.delaunay_scipy" />
+        <item itemvalue="Python.alpha" />
+        <item itemvalue="Python.delaunay_scipy (1)" />
+        <item itemvalue="Python.perspective_interactive_opencv" />
       </list>
     </recent_temporary>
   </component>
@@ -217,26 +220,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="851" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595787727668" />
-    <state width="958" height="165" key="GridCell.Tab.0.bottom" timestamp="1598036125078">
+    <state width="973" height="163" key="GridCell.Tab.0.bottom" timestamp="1598900705189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="958" height="165" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598036125078" />
-    <state width="958" height="165" key="GridCell.Tab.0.center" timestamp="1598036125077">
+    <state width="973" height="163" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598900705189" />
+    <state width="973" height="163" key="GridCell.Tab.0.center" timestamp="1598900705189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="958" height="165" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598036125077" />
-    <state width="958" height="165" key="GridCell.Tab.0.left" timestamp="1598036125076">
+    <state width="973" height="163" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598900705189" />
+    <state width="973" height="163" key="GridCell.Tab.0.left" timestamp="1598900705189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="958" height="165" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598036125076" />
-    <state width="958" height="165" key="GridCell.Tab.0.right" timestamp="1598036125078">
+    <state width="973" height="163" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598900705189" />
+    <state width="973" height="163" key="GridCell.Tab.0.right" timestamp="1598900705189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="935" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="958" height="165" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598036125078" />
+    <state width="973" height="163" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598900705189" />
     <state width="1515" height="2" key="GridCell.Tab.1.bottom" timestamp="1597339946099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,11 +260,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="252" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595698255988" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1598287629478">
+    <state x="747" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1598898019495">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="747" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597503262002" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1598287629478" />
+    <state x="747" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1598898019495" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1596917436120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
