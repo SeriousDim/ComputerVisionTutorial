@@ -93,18 +93,19 @@ def pw_affine(fromimg, toimg, fp, tp, tri):
     is_color = len(fromimg.shape) == 3  # цветное ли изображение
     im_t = np.zeros(img.shape, np.uint8)  # изобр., на которое будет переносится исходное
 
-    for t in tri.simplices:
+    for t in tri:
         # аффинное преобразвание
         i, j, k = t[0], t[1], t[2]
-        p1 = np.float32([fp[i], fp[j], fp[k]])
-        p2 = np.float32([tp[i], tp[j], tp[k]])
-        h = cv.getAffineTransform(p2, p1)
+        p1 = np.float32([fp[:2,i], fp[:2,j], fp[:2,k]])
+        p2 = np.float32([tp[:2,i], tp[:2,j], tp[:2,k]])
+        print(p1)
+        h = cv.getAffineTransform(p1, p2)
 
         if is_color:
             for clr in range(fromimg.shape[2]):
-                im_t[:,:,clr] = cv.warpAffine(fromimg[:,:,clr], h, img.shape[:2])
+                im_t[:,:,clr] = cv.warpAffine(fromimg[:,:,clr], h, (img.shape[1], img.shape[0]))
         else:
-            im_t = cv.warpAffine(fromimg, h, img.shape[:2])
+            im_t = cv.warpAffine(fromimg, h, (img.shape[1], img.shape[0]))
 
         # альфа-отображение для треугольника
         alpha = alpha_for_triangle(np.array([p2]), img.shape[0], img.shape[1])

@@ -4,10 +4,9 @@ import scipy.spatial as s
 from numpy.linalg import *
 from scipy.ndimage import filters as flt
 import matplotlib.pyplot as plt
-from homography import *
+import homography as h
 
-""" Применение кусочно-аффиного деформирования
-"""
+# Применение кусочно-аффиного деформирования
 
 # триангуляция деформируемого изображения
 fromimg = cv.imread("../images/leo.jpg")
@@ -19,13 +18,21 @@ for i in range(5):
         p.append([j*y, i*x])
 
 p = np.array(p)
-print(p.T)
-tri = triangulate_points(p)
+tri = h.triangulate_points(p)
+p = p.T
 
 # конечное изображение и конечные точки на нем
 toimg = cv.imread("../images/figures.jpg")
 # выбрать точки вручную с помощью
 tp = np.loadtxt("../points.txt")
+tp = tp.T
 
 # к однородным координатам
-fp = 
+fp = np.vstack((p, np.ones((1, p.shape[1]))))
+tp = np.vstack((tp, np.ones((1, tp.shape[1]))))
+
+out = h.pw_affine(fromimg, toimg, fp, tp, tri)
+
+plt.figure()
+plt.imshow(out)
+plt.show()
