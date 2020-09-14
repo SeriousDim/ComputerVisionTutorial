@@ -71,12 +71,12 @@ def triangulate_points(p):
 
 def alpha_for_triangle(points, m, n):
     """ Создает альфа-отображение размера (m, n) для
-    треугольника с вершинами points (нормированные координаты)
+    треугольника с вершинами points
 
-    Формат points: [[[x1, y1], [x2, y2], [x3, y3]]] (см. док. cv.fillPoly)
+    Формат points: np.int32([[[x1, y1], [x2, y2], [x3, y3]]]) (см. док. cv.fillPoly)
     """
     alpha = np.zeros((m, n))
-    alpha = cv.fillPoly(alpha, np.array(points), 1)
+    alpha = cv.fillPoly(alpha, points, 1)
     return alpha
 
 
@@ -98,7 +98,6 @@ def pw_affine(fromimg, toimg, fp, tp, tri):
         i, j, k = t[0], t[1], t[2]
         p1 = np.float32([fp[:2,i], fp[:2,j], fp[:2,k]])
         p2 = np.float32([tp[:2,i], tp[:2,j], tp[:2,k]])
-        print(p1)
         h = cv.getAffineTransform(p1, p2)
 
         if is_color:
@@ -108,7 +107,7 @@ def pw_affine(fromimg, toimg, fp, tp, tri):
             im_t = cv.warpAffine(fromimg, h, (img.shape[1], img.shape[0]))
 
         # альфа-отображение для треугольника
-        alpha = alpha_for_triangle(np.array([p2]), img.shape[0], img.shape[1])
+        alpha = alpha_for_triangle(np.int32([p2]), img.shape[0], img.shape[1])
 
         # добавить треугольник в изображение
         img[alpha > 0] = im_t[alpha > 0]

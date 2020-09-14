@@ -17,6 +17,7 @@ for i in range(5):
     for j in range(6):
         p.append([j*y, i*x])
 
+print(p)
 p = np.array(p)
 tri = h.triangulate_points(p)
 p = p.T
@@ -34,5 +35,6 @@ tp = np.vstack((tp, np.ones((1, tp.shape[1]))))
 out = h.pw_affine(fromimg, toimg, fp, tp, tri)
 
 plt.figure()
-plt.imshow(out)
+plt.imshow(fromimg)
+plt.scatter(p[:,0], p[:,1], s=10)
 plt.show()
