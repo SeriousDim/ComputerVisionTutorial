@@ -12,12 +12,14 @@ import homography as h
 fromimg = cv.imread("../images/leo.jpg")
 p = []
 
+# Точки для tp должны браться В ТАКОМ ЖЕ ПОРЯДКЕ, как и точки p
+# (если слева-направо сверху-вниз, то и tp должно браться также,
+#  слева-направо сверху-вниз, А НЕ сверху-вниз слева-направо)
 x, y = fromimg.shape[1]//4, fromimg.shape[0]//5
-for i in range(5):
-    for j in range(6):
-        p.append([j*y, i*x])
+for j in range(6):
+    for i in range(5):
+        p.append([i*x, j*y])
 
-print(p)
 p = np.array(p)
 tri = h.triangulate_points(p)
 p = p.T
@@ -34,7 +36,9 @@ tp = np.vstack((tp, np.ones((1, tp.shape[1]))))
 
 out = h.pw_affine(fromimg, toimg, fp, tp, tri)
 
+t = tp[:, 2]
+
 plt.figure()
-plt.imshow(fromimg)
-plt.scatter(p[:,0], p[:,1], s=10)
+plt.imshow(out)
+plt.scatter([t[0]], [t[1]], s=10, c='y')
 plt.show()

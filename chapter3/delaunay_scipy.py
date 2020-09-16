@@ -20,5 +20,5 @@ tri = s.Delaunay(p)
 print(tri.simplices) # [[ind1, ind2, ind3], [...], [...]]
 
 plt.triplot(p[:,0], p[:,1], tri.simplices)
-plt.plot(p[:,0], p[:,1], 'o')
+# plt.plot(p[:,0], p[:,1], 'o')
 plt.show()
