@@ -9,7 +9,7 @@ import homography as h
 # Применение кусочно-аффиного деформирования
 
 # триангуляция деформируемого изображения
-fromimg = cv.imread("../images/leo.jpg")
+fromimg = cv.imread("../images/car1.jpg")
 p = []
 
 # (!!!) Точки для tp должны браться В ТАКОМ ЖЕ ПОРЯДКЕ, как и точки p
