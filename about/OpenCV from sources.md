@@ -9,6 +9,8 @@
 
 2. [Ссылка](https://cv-tricks.com/how-to/installation-of-opencv-4-1-0-in-windows-10-from-source/). Здесь расписаны некоторые галочки (флаги) при сборке в Cmake.
 
+3. Работа с OpenCV на C++: https://api-2d3d-cad.com/intro-opencv/
+
 ## Установка и сборка исходников (по второй статье)
 
 1. Устанавливаем Python

@@ -27,7 +27,7 @@ p = p.T
 # конечное изображение и конечные точки на нем
 toimg = cv.imread("../images/figures.jpg")
 # выбрать точки вручную с помощью
-tp = np.loadtxt("../points.txt")
+tp = np.loadtxt("../txt/points.txt")
 tp = tp.T
 
 # к однородным координатам

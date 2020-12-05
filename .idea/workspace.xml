@@ -2,122 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about/Конспект_Программирование_компьютерного_зрения.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ComputerVision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ComputerVision.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCV from sources.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/OpenCV from sources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/photothumb.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/photothumb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/match.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/match1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/match1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/txt/points.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/show_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug_show_img.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Конспект_Программирование_компьютерного_зрения.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/OpenCV from sources.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/OpenCV from sources.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/pca_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/sift_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/sift_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/deformations_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/deformations_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/part_affine.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/part_affine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug_video_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug_video_capture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/haar_face_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/haar_face_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homography.py" beforeDir="false" afterPath="$PROJECT_DIR$/homography.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/select_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/select_points.py" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/deformations_opencv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homography.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/part_affine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/haar_face_detector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/debug_video_capture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/debug_show_img.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="true" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter2/fast.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter3/delaunay_scipy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -130,54 +32,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/chapter3/delaunay_scipy.py" />
-        <option value="$PROJECT_DIR$/homography.py" />
-        <option value="$PROJECT_DIR$/chapter3/part_affine.py" />
-        <option value="$PROJECT_DIR$/haar_face_detector.py" />
-        <option value="$PROJECT_DIR$/debug_video_capture.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="y" value="-19" />
-    <option name="width" value="845" />
-    <option name="height" value="768" />
-  </component>
   <component name="ProjectId" id="1fBguIS7nNufkAIkc07ZQYzUtIn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ComputerVisionTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVisionTutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVisionTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVisionTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ComputerVisionTutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ComputerVisionTutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -187,11 +43,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chapter2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/dima/resised" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My folder\Projects\ComputerVision\images\dima\resised" />
       <recent name="C:\My folder\Projects\ComputerVision\chapter2" />
       <recent name="C:\My folder\Projects\ComputerVision" />
     </key>
@@ -202,19 +59,7 @@
       <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.debug_video_capture">
+  <component name="RunManager" selected="Python.pca">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,28 +81,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="debug_video_capture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_video_capture.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="delaunay_scipy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="face_registration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,49 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/delaunay_scipy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="haar_face_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/haar_face_detector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/mser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/face_registration.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -341,13 +123,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/pca.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pca_for_diff_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/pca_for_diff_arrays.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pca_svd_vs_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/pca_svd_vs_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.debug_video_capture" />
-        <item itemvalue="Python.haar_face_detector" />
+        <item itemvalue="Python.pca" />
+        <item itemvalue="Python.face_registration" />
+        <item itemvalue="Python.pca_for_diff_arrays" />
+        <item itemvalue="Python.pca_svd_vs_opencv" />
         <item itemvalue="Python.part_affine" />
-        <item itemvalue="Python.mser" />
-        <item itemvalue="Python.delaunay_scipy (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -376,224 +221,42 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21354167" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2870229" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596647921208">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1596647921207" />
-    <state x="486" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597090430749">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="486" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597090430749" />
-    <state x="851" y="174" key="FileChooserDialogImpl" timestamp="1595787727668">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="851" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595787727668" />
-    <state width="985" height="161" key="GridCell.Tab.0.bottom" timestamp="1600109123579">
+    <state x="486" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602265047921">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="935" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="985" height="161" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1600109123579" />
-    <state width="985" height="161" key="GridCell.Tab.0.center" timestamp="1600109123578">
+    <state x="486" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1602265047921" />
+    <state x="749" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602263190805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="935" height="156" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="985" height="161" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1600109123578" />
-    <state width="985" height="161" key="GridCell.Tab.0.left" timestamp="1600109123578">
+    <state x="749" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602263190805" />
+    <state width="956" height="150" key="GridCell.Tab.0.bottom" timestamp="1606767363091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="935" height="156" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="985" height="161" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1600109123578" />
-    <state width="985" height="161" key="GridCell.Tab.0.right" timestamp="1600109123578">
+    <state width="956" height="150" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
+    <state width="956" height="150" key="GridCell.Tab.0.center" timestamp="1606767363091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="935" height="156" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597515777659" />
-    <state width="985" height="161" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600109123578" />
-    <state width="1515" height="2" key="GridCell.Tab.1.bottom" timestamp="1597339946099">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597339946099" />
-    <state width="1515" height="2" key="GridCell.Tab.1.center" timestamp="1597339946098">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597339946098" />
-    <state width="1515" height="2" key="GridCell.Tab.1.left" timestamp="1597339946098">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597339946098" />
-    <state width="1515" height="2" key="GridCell.Tab.1.right" timestamp="1597339946098">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1515" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597339946098" />
-    <state x="252" y="55" key="SettingsEditor" timestamp="1595698255988">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="252" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595698255988" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1600104426289">
+    <state width="956" height="150" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
+    <state width="956" height="150" key="GridCell.Tab.0.left" timestamp="1606767363091">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="747" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597503262002" />
-    <state x="747" y="253" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1600104426289" />
-    <state width="600" height="424" key="javadoc.popup" timestamp="1596917436120">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="956" height="150" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
+    <state width="956" height="150" key="GridCell.Tab.0.right" timestamp="1606767363091">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1596917436120" />
-    <state x="490" y="99" width="672" height="678" key="search.everywhere.popup" timestamp="1597338434568">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="956" height="150" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
+    <state x="252" y="58" key="SettingsEditor" timestamp="1603372380629">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="490" y="99" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597338434568" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/select_points.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/txt/points.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-836723051/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101875">
-          <caret line="8776" column="4" selection-start-line="8776" selection-start-column="4" selection-end-line="8776" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/mser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/car1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/pca1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/rent.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/town1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/woman.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/car3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/redsquare/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/deformations_opencv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homography.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter2/fast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/delaunay_scipy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter3/part_affine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug_show_img.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="true" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haar_face_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug_video_capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <state x="252" y="58" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603372380629" />
+    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog" timestamp="1607095917995">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1607095917995" />
+    <state x="490" y="104" width="672" height="711" key="search.everywhere.popup" timestamp="1603216069681">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="490" y="104" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603216069681" />
   </component>
 </project>

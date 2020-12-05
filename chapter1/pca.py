@@ -4,9 +4,9 @@ from imtools import *
 
 # Применение PCA для датасета MNIST
 
-path = "C:/My folder/mnist/mnist_png/training/1/"  # поставить свой путь
+path = "C:/My folder/Projects/ComputerVision/images/dima/resised/aligned/"  # поставить свой путь
 files = iter(os.listdir(path))
-amount = 100  # кол-во картинок для чтения
+amount = 30  # кол-во картинок для чтения
 
 img = cv.imread(path+next(files))
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)

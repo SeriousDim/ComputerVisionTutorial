@@ -38,6 +38,8 @@ def getOrientation(pts, img):
     drawAxis(img, center, p1, (0, 255, 0), 1)
     drawAxis(img, center, p2, (255, 255, 0), 5)
 
+    print(eigenvectors)
+
     # угол между осью Ox и вектором eigenvector[0]
     # atan2(y, x) - угол между осью Ox и вектором V(x, y)
     angle = atan2(eigenvectors[0,1], eigenvectors[0,0])

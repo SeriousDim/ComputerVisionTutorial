@@ -36,5 +36,5 @@ plt.subplot(121)
 plt.imshow(img)
 
 plt.subplot(122)
-plt.imshow(img_p)
+plt.imshow(img_a)
 plt.show()

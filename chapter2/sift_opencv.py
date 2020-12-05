@@ -53,10 +53,6 @@ img2 = cv.circle(gray2, p2, 30, (0, 255, 0), 3)
 plt.figure()
 plt.gray()
 
-plt.subplot(121)
-plt.imshow(img1)
-
-plt.subplot(122)
-plt.imshow(img2)
+plt.imshow(output)
 
 plt.show()
