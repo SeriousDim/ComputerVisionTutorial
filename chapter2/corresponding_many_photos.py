@@ -4,8 +4,10 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import filters as flt
 import os
 
-# Загружаем фото Красной площади, выделяем в них SIFT-признаки,
-# и сравниваем друг с другом. Так находим похожие фото.
+"""
+    Загружаем фото Красной площади, выделяем в них SIFT-признаки,
+    и сравниваем друг с другом. Так находим похожие фото.
+"""
 
 path = "../images/redsquare/"
 files = os.listdir(path)

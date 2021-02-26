@@ -2,14 +2,16 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Использование SIFT от OpenCV. Поиск точек, дескрипторов и
-# сопоставление точек на двух картинках, выбор одной точки.
-# НЕОБХОДИМО для работы установить OpenCV из исходников
-# по инструкции. Инстуркция в файле OpenCV from sources.md в корне проекта
-# Туториал от OpenCV: https://docs.opencv.org/master/da/df5/tutorial_py_sift_intro.html
-
-# Объяснение представления ключевых точек и дескрипторов в OpenCV здесь:
-# https://ianlondon.github.io/blog/how-to-sift-opencv/
+"""
+    Использование SIFT от OpenCV. Поиск точек, дескрипторов и
+    сопоставление точек на двух картинках, выбор одной точки.
+    НЕОБХОДИМО для работы установить OpenCV из исходников
+    по инструкции. Инстуркция в файле OpenCV from sources.md в корне проекта
+    Туториал от OpenCV: https://docs.opencv.org/master/da/df5/tutorial_py_sift_intro.html
+    
+    Объяснение представления ключевых точек и дескрипторов в OpenCV здесь:
+    https://ianlondon.github.io/blog/how-to-sift-opencv/
+"""
 
 img1 = cv.imread("../images/town1.jpg")
 img2 = cv.imread("../images/town2.jpg")
@@ -21,7 +23,7 @@ gray1 = cv.addWeighted(gray1, 1, gray1, 0, -99)
 sift = cv.SIFT_create()
 kp1, des1 = sift.detectAndCompute(gray1, None)
 kp2, des2 = sift.detectAndCompute(gray2, None)
-print(len(kp1))
+print(kp1[100].pt)
 
 out1 = np.zeros(gray1.shape)
 out1 = cv.drawKeypoints(gray1, kp1, out1, flags=cv.DrawMatchesFlags_DRAW_RICH_KEYPOINTS)
@@ -49,6 +51,8 @@ p1 = (int(p1[0]), int(p1[1]))
 p2 = (int(p2[0]), int(p2[1]))
 img1 = cv.circle(gray1, p1, 30, (0, 255, 0), 3)
 img2 = cv.circle(gray2, p2, 30, (0, 255, 0), 3)
+
+print(i1, i2)
 
 plt.figure()
 plt.gray()

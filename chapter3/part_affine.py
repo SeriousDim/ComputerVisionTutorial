@@ -6,7 +6,8 @@ from scipy.ndimage import filters as flt
 import matplotlib.pyplot as plt
 import homography as h
 
-# Применение кусочно-аффиного деформирования
+""" Применение кусочно-аффиного деформирования
+"""
 
 # триангуляция деформируемого изображения
 fromimg = cv.imread("../images/car1.jpg")

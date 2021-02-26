@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 import pydot
 import os
 
-# Пример использования PyDot
-# Использует пакет pydot, требует приложение Graphviz. Его можно скачать с сайта.
-# Устновленный путь нужно записать в PATH
+"""
+    Пример использования PyDot
+    Использует пакет pydot, требует приложение Graphviz. Его можно скачать с сайта.
+    Устновленный путь нужно записать в PATH
+"""
 
 g = pydot.Dot(graph_type='graph')
 

@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 import pydot
 import os
 
-# Визуализация связанных изображений
-# Читает файл match.txt, созданный программой corresponding_many_photos.py
-# Использует пакет pydot, требует приложение Graphviz. Его можно скачать с сайта.
-# Устновленный путь нужно записать в PATH
+"""
+    Визуализация связанных изображений
+    Читает файл match.txt, созданный программой corresponding_many_photos.py
+    Использует пакет pydot, требует приложение Graphviz. Его можно скачать с сайта.
+    Устновленный путь нужно записать в PATH
+"""
+
 match_scores = np.loadtxt("../match.txt")
 g = pydot.Dot(graph_type='graph')
 

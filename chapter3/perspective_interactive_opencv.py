@@ -2,7 +2,10 @@ import matplotlib.pyplot as plt
 import cv2 as cv
 import numpy as np
 
-# Need repair
+""" ЭТОТ КОД НЕ РАБОТАЕТ
+    Интерактивное перспективное деформирование фото.
+    Можно выбрать любые 4 точки на фото и применить деформирование
+"""
 
 img = cv.imread("../images/rent.jpg")
 out = img.copy()

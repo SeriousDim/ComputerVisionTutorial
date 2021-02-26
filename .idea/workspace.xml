@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc01fd81-2ebb-4ab7-9c4c-2800432787ab" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ComputerVision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ComputerVision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ransac.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/OpenCV from sources.md" beforeDir="false" afterPath="$PROJECT_DIR$/about/OpenCV from sources.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/pca_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/pca.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/pca_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/corresponding_many_photos.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/corresponding_many_photos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/corressponding_points_harris.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/corressponding_points_harris.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/fast.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/fast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/harris_corner_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/harris_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/harris_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/pydot_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/pydot_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter2/sift_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/sift_opencv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/deformations_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/deformations_opencv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/vizualize_linked_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/vizualize_linked_images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter3/part_affine.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/part_affine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_video_capture.py" beforeDir="false" afterPath="$PROJECT_DIR$/debug_video_capture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haar_face_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/haar_face_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/perspective_interactive_opencv.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/perspective_interactive_opencv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homography.py" beforeDir="false" afterPath="$PROJECT_DIR$/homography.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/select_points.py" beforeDir="false" afterPath="$PROJECT_DIR$/select_points.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +45,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/dima/resised" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\My folder\Projects\ComputerVision" />
       <recent name="C:\My folder\Projects\ComputerVision\images\dima\resised" />
       <recent name="C:\My folder\Projects\ComputerVision\chapter2" />
-      <recent name="C:\My folder\Projects\ComputerVision" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\My folder\Projects\ComputerVision" />
       <recent name="E:\MyFolder\MyProjects\ComputerVisionTutorial\about" />
       <recent name="E:\MyFolder\MyProjects\ComputerVisionTutorial\txt" />
       <recent name="C:\My folder\Projects\ComputerVision\images" />
       <recent name="C:\My folder\Projects\ComputerVision\chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pca">
+  <component name="RunManager" selected="Python.panorama">
     <configuration name="ComputerVision" type="PythonConfigurationType" factoryName="Python">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,49 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="face_registration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/face_registration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="part_affine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/part_affine.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/pca.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/lena.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pca_for_diff_arrays" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="panorama" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/pca_for_diff_arrays.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter3/panorama.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,13 +147,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="projection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/projection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sift_opencv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/sift_opencv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pca" />
-        <item itemvalue="Python.face_registration" />
-        <item itemvalue="Python.pca_for_diff_arrays" />
+        <item itemvalue="Python.panorama" />
+        <item itemvalue="Python.projection" />
+        <item itemvalue="Python.sift_opencv" />
         <item itemvalue="Python.pca_svd_vs_opencv" />
-        <item itemvalue="Python.part_affine" />
+        <item itemvalue="Python.lena" />
       </list>
     </recent_temporary>
   </component>
@@ -230,30 +233,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="749" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602263190805" />
-    <state width="956" height="150" key="GridCell.Tab.0.bottom" timestamp="1606767363091">
+    <state width="1008" height="82" key="GridCell.Tab.0.bottom" timestamp="1609858085341">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="956" height="150" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
-    <state width="956" height="150" key="GridCell.Tab.0.center" timestamp="1606767363091">
+    <state width="1008" height="82" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1609858085341" />
+    <state width="1008" height="82" key="GridCell.Tab.0.center" timestamp="1609858085341">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="956" height="150" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
-    <state width="956" height="150" key="GridCell.Tab.0.left" timestamp="1606767363091">
+    <state width="1008" height="82" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1609858085341" />
+    <state width="1008" height="82" key="GridCell.Tab.0.left" timestamp="1609858085341">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="956" height="150" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
-    <state width="956" height="150" key="GridCell.Tab.0.right" timestamp="1606767363091">
+    <state width="1008" height="82" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1609858085341" />
+    <state width="1008" height="82" key="GridCell.Tab.0.right" timestamp="1609858085341">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="956" height="150" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606767363091" />
+    <state width="1008" height="82" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1609858085341" />
     <state x="252" y="58" key="SettingsEditor" timestamp="1603372380629">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="252" y="58" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603372380629" />
-    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog" timestamp="1607095917995">
+    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog" timestamp="1609865250348">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1607095917995" />
+    <state x="747" y="253" width="581" height="341" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1609865250348" />
     <state x="490" y="104" width="672" height="711" key="search.everywhere.popup" timestamp="1603216069681">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

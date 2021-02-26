@@ -2,7 +2,9 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Детектор углов Харриса от OpenCV
+"""
+    Детектор углов Харриса от OpenCV
+"""
 
 img = cv.imread("../images/chess.jpg")
 gray = cv.cvtColor(img, cv.COLOR_RGB2GRAY)

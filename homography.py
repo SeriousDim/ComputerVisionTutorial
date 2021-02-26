@@ -4,6 +4,7 @@ import scipy.spatial as s
 from numpy.linalg import *
 from scipy.ndimage import filters as flt
 import matplotlib.pyplot as plt
+import ransac
 
 def normalize(points):
     """ Нормировать коллецию точек в однородных координатах так,
@@ -116,5 +117,66 @@ def pw_affine(fromimg, toimg, fp, tp, tri):
     return img
 
 
+class RansacModel:
+    """
+        Класс для тестирования подбора гомографии с помощью скрипта
+        при помощи алгоритма RANSAC
+        Docs: https://scipy-cookbook.readthedocs.io/items/RANSAC.html
+        RANSAC: https://ru.wikipedia.org/wiki/RANSAC
+    """
+
+    def fit(self, data):
+        """
+            Подбирает гомографию по 4-м выбранным соотвествиям
+            :param data: точки-соотвествия, выбранные алгоритмом
+            :return: гомография
+        """
+
+        data = data.T
+        fp = data[:3, :4]  # исходные точки
+        tp = data[3:, :4]  # конечные точки
+
+        print(data)
+
+        return h_from_points(fp, tp) # можно использовать функцию h_from_points
+
+    def get_error(self, data, h):
+        """
+            Применить гомографию ко всем соотвествиям,
+            вернуть среднеквадратичную ошибку
+            :param data: точки-соотвествия, выбранные алгоритмом
+            :param h: гомография
+            :return: среднеквадратичная ошибка
+        """
+
+        data = data.T
+        fp = data[:3]  # исходные точки
+        tp = data[3:]  # конечные точки
+        fp_transformed = np.dot(h, fp)
+
+        # нормировка
+        for i in range(3):
+            fp_transformed[i] /= fp_transformed[2]
+
+        return np.sqrt(np.sum((tp-fp_transformed)**2, axis=0))
+
+
+def h_from_ransac(fp, tp, model, maxiter=1000, match_threshold=10):
+    """
+        Устойчивое вычисление гомографии H по соотвественным точкам
+        с приминением метода RANSAC.
+        Здесь нужно скачать файл ransac.py: https://scipy-cookbook.readthedocs.io/items/RANSAC.html
+        :param fp: исходные точки в однородных коорд. (3*n)
+        :param tp: конечные точки в однородных коорд. (3*n)
+        :param model: мат. модель
+        :param maxiter: макс. число итераций
+        :param match_threshold: требуемый порог
+        :return:
+    """
+
+    data = np.vstack((fp, tp)) # сгруппировать соотв. точки
+    h, ransac_data = ransac.ransac(data.T, model, 4, maxiter, match_threshold, 10, return_all=True)
+
+    return h, ransac_data['inliers']
 
 

@@ -2,9 +2,11 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 from imtools import *
 
-# Docs: https://docs.opencv.org/master/df/d0c/tutorial_py_fast.html
-# В документации - описание алгоритма FAST и его использование с
-# деревьями решений (раздел Machine Learning a Corner Detector)
+"""
+    Docs: https://docs.opencv.org/master/df/d0c/tutorial_py_fast.html
+    В документации - описание алгоритма FAST и его использование с
+    деревьями решений (раздел Machine Learning a Corner Detector)
+"""
 
 img = cv.imread("../images/chess.jpg")
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
